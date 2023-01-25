@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 24px;
+}
+#janela-simulador{
+    background-color: #c4c4c4;
+    padding: 20px;
+    height: 600px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+ 
+}
+h2{
+    /* border-bottom: 1px solid black; */
+}
+.container{
+    display: flex;
+    margin: 28px;
+    /* width: 100%; */
+    /* flex-direction: row; */
+}
+.opcao{
+    text-align: left;
+}
+input[type="radio"]{
+    height: 1.2rem;
+    width: 1.2rem;
+}
+input[type="number"]{
+    width: 50px;
+    padding: 5px;
+}
+label.quantum{
+    margin-left: 25px;
+    font-size: 20px;
+
+}
+.ativCpu{
+    padding: 20px 80px;
+}
+.ativCpu #box-processo{
+    width: 50px;
+    height: 40px;
+    border:2px solid red;
+    background: #9b9b9b;
+    
+}
+#box-processo span{
+    text-align: center;
+    font-size: 28px;
+}
+.container2, .botao{
+    display: flex;
+}
+.fila-de-processo{
+    margin-left: 30px;
+}
+.fila-de-processo p, #campo-fila{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+ol li{
+    list-style: upper-alpha;
+    list-style-position: inside;
+    text-align: left;
+
+}
+ol{
+    background-color: #fff;
+    border-radius: 5px;
+    height: 190px;
+    padding: 10px;
+    border: 2px solid #9b9b9b;
+
+}
+.botao{
+    flex-direction: column;
+    margin: 50px 0 0px 60px;
+}
+button{
+    width: 190px;
+    height: 40px;
+    margin: 8px 0;
+    font-size: 18px;
+
+}
+table{
+    border-collapse: collapse;
+    width: 600px;
+    text-align: left;
+    background-color: rgb(158, 158, 158);
+}
+td, th{
+    border: 1px solid black;
+    font-weight: 800;
+}
+tr:nth-child(even){
+    background-color: rgb(211, 210, 210);
+}
+thead{
+    background-color: rgb(63, 63, 63);
+    color: white;
+
+}

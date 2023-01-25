@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="simulador.js" defer></script>
+    <title>Simulador de Escalonamento</title>
+</head>
+<body>
+    <section id="janela-simulador">
+        <h2>Simulador de Escalonamento</h2>
+        <div class="container">
+            <div class="opcao">
+                <input type="radio" name="option" id="radio-fifo">
+                <label>FIFO</label><br>
+                <input type="radio" name="option" id="radio-sjf">
+                <label for="">SJF</label><br>
+                <input type="radio" name="option" id="roundRobin">
+                <label for="">Round Robin</label><br>
+                <label for="" class="quantum">Quantum: </label><input type="number">
+
+            </div>
+            <div class="ativCpu">
+                <p>CPU:</p>
+                <div id="box-processo">
+                    <span id="cpu"></span>
+                </div>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="fila-de-processo">
+                <p>Fila de pronto:</p>
+                    <ol id="campo-fila">
+                        
+                    </ol>
+            </div>
+            <div class="botao">
+                <button class="load-processo" id="carrega-fila">Carregar processo</button>
+                <button class="executar" id="executa">Executar</button>
+            </div>
+        </div>
+       <div id="tabela">
+        <table>
+            <thead id="tabela-head">
+                <tr>
+                    <th>Processo</th>
+                    <th>Tempo de Turnaround</th>
+                    <th>Tempo de Espera</th>
+                </tr>
+            </thead>
+         
+
+        </table>
+       </div>
+    </section>
+</body>
+</html>
