@@ -14,20 +14,15 @@ body{
 #janela-simulador{
     background-color: #c4c4c4;
     padding: 20px;
-    height: 600px;
+    height: auto;
     border-radius: 10px;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
  
 }
-h2{
-    /* border-bottom: 1px solid black; */
-}
 .container{
     display: flex;
     margin: 28px;
-    /* width: 100%; */
-    /* flex-direction: row; */
 }
 .opcao{
     text-align: left;
@@ -48,17 +43,7 @@ label.quantum{
 .ativCpu{
     padding: 20px 80px;
 }
-.ativCpu #box-processo{
-    width: 50px;
-    height: 40px;
-    border:2px solid red;
-    background: #9b9b9b;
-    
-}
-#box-processo span{
-    text-align: center;
-    font-size: 28px;
-}
+
 .container2, .botao{
     display: flex;
 }
